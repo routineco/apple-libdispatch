@@ -42,7 +42,7 @@ getprogname(void)
 # elif defined(__ANDROID__)
 	return __progname;
 # else
-#   error getprogname(3) is not available on this platform
+        return "routine";
 # endif
 }
 #endif /* _WIN32 */
